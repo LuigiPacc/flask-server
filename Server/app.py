@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 import json
-
+exit("Server disattivato temporaneamente") --togli poi per render.com perchè rompe tutto
 app = Flask(__name__)
 CORS(app)  # abilita accesso da Unity
 
